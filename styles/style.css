@@ -1,3 +1,38 @@
+/* common style */
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0px;
+}
+
+.same-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.same-heading {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.why-choose-us{
+    margin-bottom: 100px;
+}
+.why-choose-us h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/*  */
 body {
     font-family: "Mulish", sans-serif;
 }
@@ -40,14 +75,15 @@ nav ul {
 
 .text {
     text-align: center;
-    color:#FFF;
+    color: #FFF;
     width: 676px;
     padding: 50px 247px 0 247px;
 }
-.text h1{
-font-size: 4rem;
-font-weight: 800;
-margin-bottom: 24px;
+
+.text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .shadow {
@@ -71,10 +107,142 @@ margin-bottom: 24px;
 }
 
 .background select {
+    color: rgba(19, 19, 24, 0.50);
+    padding: 16px 84px 16px 16px;
     border: none;
     margin-right: 24px;
     width: 174px;
     height: 52px;
     border-radius: 8px;
-    background: #FFF;
 }
+
+/* header section end */
+
+/* our popular tour start */
+.popular-tours {
+    display: flex;
+    margin: 100px 135px 100px 135px;
+    gap: 55px;
+
+}
+
+.popular-tours-title h2 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#first {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+#second {
+    width: 530px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.popular-tours-title ul {
+    margin-bottom: 24px;
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+
+.popular-tours-title li {
+    margin-top: 16px;
+}
+
+.popular-tours img {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+/*  our popular tour end*/
+/* destination start*/
+.second-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.img-container {
+    margin: 48px 120px 0px 120px;
+}
+
+.img-container div {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.destination-title h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-title p {
+    width: 643px;
+    margin: auto;
+}
+
+/* destination end */
+/* choose us start */
+.choose-us-container {
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.plans-container p {
+    width: 486px;
+    color: #5A5A5D;
+    font-weight: 400;
+}
+
+.plan-one {
+    border-radius: 16px;
+    margin-top: 48px;
+    padding: 32px 32px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.plan-two {
+    margin-top: 48px;
+    border-radius: 16px;
+    padding: 35px 35px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.plan-three {
+    margin-top: 24px;
+    border-radius: 16px;
+    padding: 35px 35px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-us-container p {
+    width: 643px;
+    margin: auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+
+/* choose us end */
+@media screen and (max-width:576px) {}
