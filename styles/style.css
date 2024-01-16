@@ -1,0 +1,80 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+/* header section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 130px;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h2 {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.bg-img {
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    box-shadow: 0px 100px 200px inset;
+    width: 1170px;
+    height: 500px;
+    margin-left: 135px;
+    border-radius: 16px;
+}
+
+.text {
+    text-align: center;
+    color:#FFF;
+    width: 676px;
+    padding: 50px 247px 0 247px;
+}
+.text h1{
+font-size: 4rem;
+font-weight: 800;
+margin-bottom: 24px;
+}
+
+.shadow {
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    margin: 48px 185px 106px 165px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.background button {
+    border: none;
+    text-align: center;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.background select {
+    border: none;
+    margin-right: 24px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
