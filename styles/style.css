@@ -35,6 +35,9 @@
 }
 
 /*  */
+.hamburger{
+    display: none;
+}
 body {
     font-family: "Mulish", sans-serif;
 }
@@ -514,6 +517,10 @@ footer img {
 
 /*  */
 @media screen and (max-width: 576px) {
+    .hamburger{
+        display: block;
+        margin-right: 100px;
+    }
     nav {
         display: flex;
         margin: 30px;
@@ -530,7 +537,7 @@ footer img {
     }
 
     nav div {
-        margin-right: 62%;
+        margin-right: 30%;
         gap: 10px;
     }
 
