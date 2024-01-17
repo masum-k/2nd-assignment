@@ -549,7 +549,9 @@ footer img {
         font-size: 1rem;
         display: inline-flex;
     }
-
+    .package-btn{
+        display: none;
+    }
     .shadow {
         margin: 0px 45px 0px 0px;
         background: none;
