@@ -709,17 +709,66 @@ footer img {
     .discount-text p {
         width: 320px;
     }
+
     .perfect-place {
         margin: 0px;
         gap: 20px;
         flex-direction: column;
     }
+
     .perfect-place-title li {
         width: 265px;
     }
+
     .perfect-place img {
         width: 335px;
         height: 200px;
         margin: 0px;
+    }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .form input {
+        width: 288px;
+        height: 52px;
+    }
+
+    .form button {
+        width: 288px;
+        height: 52px;
+    }
+
+    .newsletter-container {
+        width: 335px;
+        height: 353px;
+        margin-top: 20px;
+    }
+
+    .newsletter-text {
+        margin: 20px 0px 0px 15px;
+    }
+
+    .newsletter-text p {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .newsletter-img {
+        width: 335px;
+        height: 300px;
+        background-size: cover;
+        border-radius: 16px;
+    }
+
+    .coupon {
+        top: 47%;
+        left: 17%;
+        width: 270px;
+        height: 109px;
+    }
+    .coupon h2{
+        font-size: 28px;
     }
 }
