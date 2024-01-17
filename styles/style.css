@@ -65,24 +65,12 @@ nav ul {
     gap: 20px;
     font-size: 18px;
 }
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #FFF;
-}
+
 .bg-img {
-     background: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
-    box-shadow: 0px 100px 200px inset;
-    width: 1170px;
-    height: 500px;
+    background: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     margin-left: 135px;
     border-radius: 16px;
 }
@@ -525,24 +513,213 @@ footer img {
 }
 
 /*  */
-@media screen and (max-width:576px) {
-    nav{
-       display: grid;
-       grid-template-columns: 200px;
-        
+@media screen and (max-width: 576px) {
+    nav {
+        display: flex;
+        margin: 30px;
     }
-    bg-img{
+
+    nav div {
+        margin-right: 30%;
+        gap: 10px;
+    }
+
+    nav div img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    nav div {
+        margin-right: 62%;
+        gap: 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav h2 {
+        font-size: 1rem;
+        display: inline-flex;
+    }
+
+    .shadow {
+        margin: 0px;
+        background: none;
+    }
+
+    .background select {
+        margin-bottom: 10px;
+        margin-left: 23%;
+    }
+
+    .background button {
+        margin-left: 23%;
+    }
+
+    .bg-img {
+        /* background: url(../Images/Group\ 13\ \(1\)\ \(1\).png); */
+        box-shadow: 0px 25px 100px inset;
+        width: 80%;
+        height: 53vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        border-radius: 16px;
+        margin-left: 0px;
+    }
+
+    .text {
+        text-align: center;
+        width: 314px;
+        padding: 1px;
+        color: #FFF;
+    }
+
+    .text h1 {
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 30px;
+    }
+
+    .popular-tours {
+        margin: 10px 0px 0px 0px;
+        gap: 20px;
         flex-direction: column;
     }
-    .popular-tours{
-       display: grid;
-       grid-template-columns: 100px;
+
+    #first {
+        width: 320px;
     }
-    .popular-tours img{
+
+    #second {
+        width: 320px;
+    }
+
+    .popular-tours-title ul {
+        width: 280px;
+    }
+
+    .popular-tours img {
+        width: 78%;
+        height: 50%;
+        margin-left: 0px;
+    }
+
+    .second-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .why-choose-us {
+        margin-bottom: 40px;
+    }
+
+    .destination-title h2 {
+        margin-right: 80px;
+        font-size: 1.5rem;
+    }
+
+    .destination-title p {
+        width: 302px;
+        margin-left: 10px;
+    }
+
+    .img-container {
+        margin: 18px 93px 0px 10px;
+    }
+
+    .img-container div {
+        flex-direction: column;
+    }
+
+    .img-container>div img {
         width: 100%;
-        height: 100%;
+        height: 176px;
     }
-    .destination-title{
-        width: 100px;
+
+    .choose-us-container {
+        width: 320px;
+        text-align: center;
+    }
+
+    .choose-us-container p {
+        width: 315px;
+        margin: 0px;
+    }
+
+    .plans-container {
+        width: 300px;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .plans-container p {
+        width: 277px;
+    }
+
+    .plan-one {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .plan-two {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .plan-three {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .discount-warehouse {
+        margin-right: 78px;
+    }
+
+    .discount-warehouse p {
+        width: 320px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .discount-bg-img {
+        margin-left: 0px;
+        padding: 187px 16px 16px 16px;
+        border-radius: 16px;
+        width: 300px;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .discount-container {
+        width: 303px;
+        height: 297px;
+        margin-top: 200px;
+    }
+
+    .discount-item {
+        margin: 0px 0px 0px 30px;
+    }
+
+    .discount-text {
+        margin-left: 27px;
+    }
+
+    .discount-text p {
+        width: 320px;
+    }
+    .perfect-place {
+        margin: 0px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .perfect-place-title li {
+        width: 265px;
+    }
+    .perfect-place img {
+        width: 335px;
+        height: 200px;
+        margin: 0px;
     }
 }
